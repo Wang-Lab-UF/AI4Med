@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI4Med: Artificial Intelligence for Medical and Veterinary Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI4Med: Artificial Intelligence for Medical and Veterinary Students</h1>
+            <p class="subtitle">Spring 2026</p>
+        </header>
+
+        <nav>
+            <a href="#info">Course Info</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#assignments">Assignments</a>
+            <a href="#resources">Resources</a>
+        </nav>
+
+        <section id="info">
+            <h2>Course Information</h2>
+            
+            <div class="info-block">
+                <h3>Instructor</h3>
+                <p><strong>Dr. [Your Name]</strong></p>
+                <p>Email: wang.yiquan@ufl.edu</p>
+                <p>Office Hours: By appointment</p>
+            </div>
+
+            <div class="info-block">
+                <h3>Meeting Times</h3>
+                <p><strong>Lectures:</strong> Tuesday & Thursday, 10:00 AM - 11:30 AM</p>
+                <p><strong>Lab Sessions:</strong> Friday, 2:00 PM - 4:00 PM</p>
+                <p><strong>Location:</strong> [Room TBD]</p>
+            </div>
+
+            <div class="info-block">
+                <h3>Course Description</h3>
+                <p>This course provides a comprehensive introduction to artificial intelligence designed specifically for medical and veterinary students with no computer science background. Students will learn fundamental AI concepts, gain hands-on experience with modern AI development tools, and apply these techniques to real-world healthcare applications and life sciences research.</p>
+                
+                <p><strong>Key Learning Objectives:</strong></p>
+                <ul>
+                    <li>Develop a big-picture understanding of AI/ML techniques and their applications</li>
+                    <li>Master modern AI development tools (Cursor, GitHub Copilot, ChatGPT, Claude)</li>
+                    <li>Build practical applications: web apps and interactive tools for healthcare</li>
+                    <li>Reproduce and understand AI research models in life sciences</li>
+                    <li>Critically evaluate AI systems and their limitations in medical contexts</li>
+                </ul>
+            </div>
+
+            <div class="info-block">
+                <h3>Prerequisites</h3>
+                <p>No programming experience required. Students should have:</p>
+                <ul>
+                    <li>Basic understanding of medical/veterinary sciences</li>
+                    <li>Comfort with using computers and learning new software</li>
+                    <li>Willingness to experiment and learn through hands-on practice</li>
+                </ul>
+            </div>
+
+            <div class="info-block">
+                <h3>Grading</h3>
+                <ul>
+                    <li>Participation & Weekly Exercises: 20%</li>
+                    <li>Assignment 1 (AI Tools Mastery): 15%</li>
+                    <li>Assignment 2 (Web Application Development): 25%</li>
+                    <li>Assignment 3 (Research Model Reproduction): 25%</li>
+                    <li>Final Project: 15%</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="schedule">
+            <h2>Schedule & Syllabus</h2>
+            
+            <div class="week">
+                <h3>Week 1: Introduction - AI in Medicine</h3>
+                <p><strong>Topics:</strong> Course overview, what is AI?, AI in healthcare today, success stories and failures</p>
+                <p><strong>Lab:</strong> Setting up development environment, introduction to Cursor AI editor</p>
+                <p><strong>Reading:</strong> Esteva et al. "A guide to deep learning in healthcare" (Nature Medicine, 2019)</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 2: AI Fundamentals I - Machine Learning Basics</h3>
+                <p><strong>Topics:</strong> Supervised vs. unsupervised learning, classification vs. regression, training/validation/testing, overfitting</p>
+                <p><strong>Lab:</strong> Using AI tools to analyze medical datasets (diagnosis prediction)</p>
+                <p><strong>Reading:</strong> Selected chapters from "Machine Learning Yearning" by Andrew Ng</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 3: AI Fundamentals II - Neural Networks & Deep Learning</h3>
+                <p><strong>Topics:</strong> Neural networks intuition, CNNs for medical imaging, how models learn</p>
+                <p><strong>Lab:</strong> GitHub Copilot hands-on, building a simple image classifier</p>
+                <p><strong>Reading:</strong> Goodfellow et al. Deep Learning (selected chapters)</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 4: AI Development Tools Ecosystem</h3>
+                <p><strong>Topics:</strong> LLM-powered coding assistants, ChatGPT/Claude for research, Hugging Face and open-source models</p>
+                <p><strong>Lab:</strong> Exploring pre-trained models, prompt engineering for medical tasks</p>
+                <p><strong>Due:</strong> Assignment 1 - AI Tools Mastery Portfolio</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 5: Web Development Basics with AI</h3>
+                <p><strong>Topics:</strong> HTML/CSS/JavaScript fundamentals, using AI to accelerate development, responsive design</p>
+                <p><strong>Lab:</strong> Building your first medical information website with AI assistance</p>
+                <p><strong>Reading:</strong> Web development resources (provided)</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 6: Interactive Web Applications</h3>
+                <p><strong>Topics:</strong> JavaScript frameworks (React basics), APIs and data integration, deploying web apps</p>
+                <p><strong>Lab:</strong> Creating an interactive symptom checker or medical calculator</p>
+                <p><strong>Reading:</strong> Modern web development tutorials</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 7: Computer Vision in Medical Imaging</h3>
+                <p><strong>Topics:</strong> CNNs deep dive, medical image analysis (X-rays, CT, MRI, pathology), segmentation and detection</p>
+                <p><strong>Lab:</strong> Using pre-trained models for medical image analysis</p>
+                <p><strong>Reading:</strong> Litjens et al. "A survey on deep learning in medical image analysis"</p>
+                <p><strong>Due:</strong> Assignment 2 - Healthcare Web Application</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 8: Natural Language Processing in Healthcare</h3>
+                <p><strong>Topics:</strong> Text analysis, clinical notes processing, medical literature mining, chatbots for patient interaction</p>
+                <p><strong>Lab:</strong> Building a medical literature summarizer with LLMs</p>
+                <p><strong>Reading:</strong> Recent papers on clinical NLP</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 9: AI in Life Sciences Research I</h3>
+                <p><strong>Topics:</strong> Drug discovery, protein structure prediction (AlphaFold), genomics and bioinformatics</p>
+                <p><strong>Lab:</strong> Reproducing a published model - getting started, data preparation</p>
+                <p><strong>Reading:</strong> Jumper et al. "Highly accurate protein structure prediction with AlphaFold"</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 10: AI in Life Sciences Research II</h3>
+                <p><strong>Topics:</strong> Single-cell analysis, medical imaging research, reproducibility in AI research</p>
+                <p><strong>Lab:</strong> Model reproduction workshop - implementation and validation</p>
+                <p><strong>Reading:</strong> Selected research papers on AI in life sciences</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 11: AI for Veterinary Medicine</h3>
+                <p><strong>Topics:</strong> AI applications in animal health, comparative medicine, challenges unique to veterinary AI</p>
+                <p><strong>Lab:</strong> Adapting human medicine models for veterinary applications</p>
+                <p><strong>Reading:</strong> Recent papers on AI in veterinary medicine</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 12: Ethics, Bias, and Interpretability</h3>
+                <p><strong>Topics:</strong> Algorithmic bias in healthcare, fairness and equity, explainable AI, FDA regulations and medical AI</p>
+                <p><strong>Lab:</strong> Analyzing bias in medical AI systems, interpretability tools</p>
+                <p><strong>Reading:</strong> Obermeyer et al. "Dissecting racial bias in an algorithm used to manage the health of populations"</p>
+                <p><strong>Due:</strong> Assignment 3 - Research Model Reproduction</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 13: Advanced Topics & Current Research</h3>
+                <p><strong>Topics:</strong> Federated learning for healthcare, multimodal AI, AI for clinical trials, future directions</p>
+                <p><strong>Lab:</strong> Final project work session</p>
+                <p><strong>Reading:</strong> Recent papers from top medical AI conferences</p>
+            </div>
+
+            <div class="week">
+                <h3>Week 14: Final Project Presentations</h3>
+                <p><strong>Topics:</strong> Student project presentations and course wrap-up</p>
+                <p><strong>Due:</strong> Final Project</p>
+            </div>
+        </section>
+
+        <section id="assignments">
+            <h2>Major Assignments</h2>
+
+            <div class="assignment">
+                <h3>Assignment 1: AI Tools Mastery Portfolio (15%)</h3>
+                <p><strong>Due:</strong> Week 4</p>
+                <p><strong>Objective:</strong> Demonstrate proficiency with modern AI development tools and understand their strengths and limitations.</p>
+                
+                <p><strong>Deliverables:</strong></p>
+                <ul>
+                    <li><strong>Tool Exploration Report:</strong> Document your experience with Cursor, GitHub Copilot, ChatGPT, and Claude. Include specific examples of tasks where each tool excelled or struggled.</li>
+                    <li><strong>Mini-Projects:</strong> Complete 3 small coding tasks using AI assistance:
+                        <ul>
+                            <li>Data analysis script for a medical dataset</li>
+                            <li>Simple diagnostic decision tree implementation</li>
+                            <li>Medical terminology quiz game</li>
+                        </ul>
+                    </li>
+                    <li><strong>Reflection:</strong> 2-page essay on how AI tools change the software development process and their potential impact on medical informatics</li>
+                </ul>
+                
+                <p><strong>Skills Developed:</strong> AI-assisted coding, prompt engineering, critical evaluation of AI outputs, debugging AI-generated code</p>
+            </div>
+
+            <div class="assignment">
+                <h3>Assignment 2: Healthcare Web Application (25%)</h3>
+                <p><strong>Due:</strong> Week 7</p>
+                <p><strong>Objective:</strong> Build a functional, user-friendly web application that serves a healthcare-related purpose.</p>
+                
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>Create a complete web application with frontend and basic backend logic</li>
+                    <li>Must incorporate at least one AI/ML component (e.g., prediction model, NLP feature, image analysis)</li>
+                    <li>Professional UI/UX design appropriate for medical context</li>
+                    <li>Deployed and accessible via web URL</li>
+                </ul>
+                
+                <p><strong>Example Projects:</strong></p>
+                <ul>
+                    <li>Interactive medical calculator (e.g., drug dosing, risk scores)</li>
+                    <li>Symptom checker with AI-powered triage suggestions</li>
+                    <li>Medical image viewer with annotation and AI analysis tools</li>
+                    <li>Patient education platform with personalized content</li>
+                    <li>Veterinary clinic management dashboard</li>
+                </ul>
+                
+                <p><strong>Deliverables:</strong></p>
+                <ul>
+                    <li>Live web application (URL)</li>
+                    <li>Source code repository (GitHub)</li>
+                    <li>5-page documentation including design decisions, AI tool usage, and user guide</li>
+                    <li>5-minute video demo</li>
+                </ul>
+            </div>
+
+            <div class="assignment">
+                <h3>Assignment 3: Research Model Reproduction (25%)</h3>
+                <p><strong>Due:</strong> Week 12</p>
+                <p><strong>Objective:</strong> Reproduce a published AI research model in life sciences, understanding the full pipeline from data to results.</p>
+                
+                <p><strong>Process:</strong></p>
+                <ol>
+                    <li><strong>Paper Selection:</strong> Choose from provided list or propose a paper (must be approved by instructor)
+                        <ul>
+                            <li>Focus areas: medical imaging, drug discovery, genomics, clinical prediction</li>
+                            <li>Paper should include accessible dataset and clear methodology</li>
+                        </ul>
+                    </li>
+                    <li><strong>Reproduction:</strong> Implement the model and reproduce key results
+                        <ul>
+                            <li>You may use AI tools extensively for this assignment</li>
+                            <li>Document all code and decisions</li>
+                            <li>Compare your results with published results</li>
+                        </ul>
+                    </li>
+                    <li><strong>Extension:</strong> Add one novel element:
+                        <ul>
+                            <li>Test on a different dataset</li>
+                            <li>Try different hyperparameters or architecture modifications</li>
+                            <li>Create visualization tools for the results</li>
+                            <li>Analyze model interpretability</li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <p><strong>Deliverables:</strong></p>
+                <ul>
+                    <li>Complete code repository with clear documentation</li>
+                    <li>8-10 page report in conference paper format including:
+                        <ul>
+                            <li>Original paper summary</li>
+                            <li>Reproduction methodology and challenges</li>
+                            <li>Results comparison</li>
+                            <li>Novel extension and findings</li>
+                            <li>Critical analysis of reproducibility</li>
+                        </ul>
+                    </li>
+                    <li>Jupyter notebook walkthrough</li>
+                </ul>
+                
+                <p><strong>Suggested Papers:</strong> Will be provided with detailed guidelines and datasets</p>
+            </div>
+
+            <div class="assignment">
+                <h3>Final Project: Choose Your Own Adventure (15%)</h3>
+                <p><strong>Due:</strong> Week 14</p>
+                <p><strong>Objective:</strong> Apply course concepts to a project of personal interest relevant to your field.</p>
+                
+                <p><strong>Options:</strong></p>
+                <ol>
+                    <li><strong>Application Development:</strong> Build a more ambitious web/mobile app or game with AI features</li>
+                    <li><strong>Research Project:</strong> Conduct a small research study using AI on a dataset of your choice</li>
+                    <li><strong>Educational Tool:</strong> Create an interactive learning tool for medical/vet students</li>
+                    <li><strong>Literature Review + Demo:</strong> Comprehensive survey of AI in a specific medical domain with prototype implementation</li>
+                </ol>
+                
+                <p><strong>Deliverables:</strong></p>
+                <ul>
+                    <li>Final product (application, research paper, or tool)</li>
+                    <li>10-minute presentation to class</li>
+                    <li>Project website/documentation</li>
+                    <li>Reflection on learning journey and future applications</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+
+            <div class="resource-category">
+                <h3>AI/ML Fundamentals</h3>
+                <ul>
+                    <li><a href="https://cs229.stanford.edu/">CS229: Machine Learning (Stanford)</a> - Classical ML course by Andrew Ng</li>
+                    <li><a href="https://www.deeplearning.ai/">DeepLearning.AI Courses</a> - Practical deep learning specializations</li>
+                    <li><a href="https://www.3blue1brown.com/topics/neural-networks">3Blue1Brown Neural Networks Series</a> - Excellent visual explanations</li>
+                    <li>"Machine Learning Yearning" by Andrew Ng - Free e-book on practical ML</li>
+                    <li><a href="https://slazebni.cs.illinois.edu/spring21/">CS 498 DL: Deep Learning (UIUC)</a> - Advanced deep learning topics</li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>AI Development Tools</h3>
+                <ul>
+                    <li><a href="https://www.cursor.com/">Cursor</a> - AI-powered code editor</li>
+                    <li><a href="https://github.com/features/copilot">GitHub Copilot</a> - AI pair programmer</li>
+                    <li><a href="https://chat.openai.com/">ChatGPT</a> & <a href="https://claude.ai/">Claude</a> - General-purpose AI assistants</li>
+                    <li><a href="https://huggingface.co/">Hugging Face</a> - Open-source AI models and datasets</li>
+                    <li><a href="https://colab.research.google.com/">Google Colab</a> - Free cloud-based Jupyter notebooks with GPU</li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>AI in Healthcare & Life Sciences</h3>
+                <ul>
+                    <li><a href="https://web.stanford.edu/class/biods220/">Stanford BIODS 220: AI in Healthcare</a></li>
+                    <li><a href="https://www.deeplearning.ai/courses/ai-for-medicine-specialization/">AI for Medicine Specialization (DeepLearning.AI)</a></li>
+                    <li><a href="https://arxiv.org/list/q-bio/recent">arXiv q-bio</a> - Latest research in quantitative biology</li>
+                    <li><a href="https://arxiv.org/list/cs.CV/recent">arXiv cs.CV</a> - Computer vision papers (includes medical imaging)</li>
+                    <li><a href="https://www.nature.com/natmedai/">Nature Medicine AI Collection</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>Web Development</h3>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a> - Comprehensive web development reference</li>
+                    <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a> - Interactive web development tutorials</li>
+                    <li><a href="https://react.dev/">React Documentation</a> - Modern JavaScript framework</li>
+                    <li><a href="https://www.youtube.com/c/WebDevSimplified">Web Dev Simplified (YouTube)</a> - Clear tutorials</li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>Python & Data Science</h3>
+                <ul>
+                    <li><a href="https://docs.python.org/3/tutorial/">Python Official Tutorial</a></li>
+                    <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> - Free online book</li>
+                    <li><a href="https://scikit-learn.org/stable/tutorial/index.html">Scikit-learn Tutorials</a> - ML in Python</li>
+                    <li><a href="https://pytorch.org/tutorials/">PyTorch Tutorials</a> - Deep learning framework</li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>Medical AI Datasets</h3>
+                <ul>
+                    <li><a href="https://www.kaggle.com/datasets?search=medical">Kaggle Medical Datasets</a></li>
+                    <li><a href="https://physionet.org/">PhysioNet</a> - Clinical datasets and challenges</li>
+                    <li><a href="https://nihcc.app.box.com/v/ChestXray-NIHCC">NIH Chest X-ray Dataset</a></li>
+                    <li><a href="https://wiki.cancerimagingarchive.net/">The Cancer Imaging Archive</a></li>
+                    <li><a href="https://paperswithcode.com/datasets?mod=medical">Papers with Code - Medical Datasets</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>Research Paper Resources</h3>
+                <ul>
+                    <li><a href="https://arxiv-sanity-lite.com/">Arxiv Sanity</a> - Better interface for browsing papers</li>
+                    <li><a href="https://www.connectedpapers.com/">Connected Papers</a> - Visual paper exploration</li>
+                    <li><a href="https://elicit.org/">Elicit</a> - AI research assistant</li>
+                    <li><a href="https://scholar.google.com/">Google Scholar</a> - Academic search engine</li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>Books</h3>
+                <ul>
+                    <li>"Deep Learning" by Goodfellow, Bengio, and Courville - <a href="https://www.deeplearningbook.org/">Free online</a></li>
+                    <li>"Artificial Intelligence in Healthcare" by Adam Bohr and Kaveh Memarzadeh</li>
+                    <li>"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron</li>
+                    <li>"Deep Learning for Coders with fastai and PyTorch" by Jeremy Howard and Sylvain Gugger</li>
+                </ul>
+            </div>
+
+            <div class="resource-category">
+                <h3>Communities & Forums</h3>
+                <ul>
+                    <li><a href="https://stackoverflow.com/">Stack Overflow</a> - Programming Q&A</li>
+                    <li><a href="https://www.reddit.com/r/MachineLearning/">r/MachineLearning</a> - ML research discussions</li>
+                    <li><a href="https://www.reddit.com/r/learnprogramming/">r/learnprogramming</a> - Beginner-friendly coding help</li>
+                    <li><a href="https://discourse.huggingface.co/">Hugging Face Forums</a> - NLP and transformers</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>AI4Med - Spring 2026 | Last updated: October 2025</p>
+            <p>This course website was built with AI assistance as a demonstration of the tools taught in this class.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
