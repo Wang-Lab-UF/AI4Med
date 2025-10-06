@@ -2,7 +2,7 @@
 
 **Instructor:** Dr. Yiquan Wang (wang.yiquan@ufl.edu)  
 **Semester:** Spring 2026  
-**Course Website:** [View Full Syllabus](index.html)
+**Course Website:** [View Full Syllabus](https://wang-lab-uf.github.io/AI4Med/)
 
 Welcome to AI4Med! This repository contains the course website and will serve as the central hub for all student project submissions.
 
